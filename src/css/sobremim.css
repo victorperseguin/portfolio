@@ -14,4 +14,37 @@
   border-radius: 5px;
 }
 
+.sobre-mim .informacoes-sobre-mim {
+  max-width: 60%;
+  padding: 0 25px;
+  align-self: center;
+}
 
+.sobre-mim .informacoes-sobre-mim .botoes {
+  margin-top: 50px;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+@media (max-width:1280px) {
+  .sobre-mim .row {
+    justify-content: center;
+
+  }
+  .sobre-mim  .imagem-sobre-mim{
+    max-width: 100%;
+    padding: 0 var(--mobile-padding);
+    margin-bottom: 50px;
+  }
+  .sobre-mim .informacoes-sobre-mim {
+    padding: 0 var(--mobile-padding);
+    text-align: center;
+  }
+  .sobre-mim .informacoes-sobre-mim {
+    max-width: 100%;
+  }
+}
