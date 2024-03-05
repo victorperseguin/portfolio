@@ -1,0 +1,5 @@
+.habilidades .container-habilidades {
+  display: flex;
+  justify-content: row;
+  
+}
